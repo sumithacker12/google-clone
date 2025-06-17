@@ -1,0 +1,256 @@
+body{
+    background-color:#202124;
+}
+
+.nav-bar{
+    padding-top: 3px, 10px;
+    height: 60px;
+    display: flex;
+}
+.nav-bar a:hover{
+    text-decoration: underline;
+}
+.nav-one{
+    text-align: start;
+    margin: 0 8px;
+    justify-content: start;
+    width: 15%;
+    justify-content: space-between;
+}
+.nav-one a{
+    justify-content: space-around;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial;
+    display: inline-block;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-two{
+    text-align: end;
+    justify-content: space-around;
+    width: 85%;
+
+}
+.nav-two a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial;
+    display: inline;
+    gap: 20px;
+}
+.signin{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    width: 60px;
+    background-color: lightseagreen;
+    border-radius: 35px;
+}
+
+/* image div */
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+    width: 100%;
+    text-align: center;
+}
+.search-box{
+    justify-items: center;
+    align-items: center;
+}
+.search{
+    display: inline;
+    height:50px;
+    border: 0;
+    background-color: transparent;
+}
+
+.search-box input{
+    width: 550px;
+    height: 30px;
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #3c4043;
+    border-radius: 35px;  
+}
+.search-box input:hover{
+    outline: none;
+    border: 2px solid antiquewhite;
+    color: white;
+}       
+.search-box i{
+    display: inline;
+    height: 50px;
+    width: 55px;
+    color: white;
+}
+
+.button{
+    align-items: center;
+    display: inline;
+    height: 50px;
+    width: 55px;
+    background-color: #202124;
+    color: white;
+    font-size: 18px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.search-button{
+    height: 40px;
+    width: 130px;
+    border-width: 2px;
+    background-color: #202124;
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+    text-align: center;
+}
+.search-button:hover{
+    border-color: antiquewhite;
+    color: white;
+}
+
+.lucky-button{
+    height: 40px;
+    width: 150px;
+    border-color: #202124;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+    text-align: center;
+    margin-left: 6px;
+    border-radius: 5px;
+}
+
+.lucky-button:hover{
+    border-color: antiquewhite;
+    color: white;
+} 
+
+.footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    font-family: Arial;
+    gap: 5px;
+}
+
+.footer a{
+    color: lightsteelblue;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+    gap: 3px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}   
+
+.footer-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    font-family: Arial;
+    gap: 5px;
+}
+
+.footer-two a{
+    color: lightsteelblue;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+    gap: 3px;
+}
+
+.footer-two a:hover{
+    text-decoration: underline;
+}   
+
+.footer-three{
+    left: 0;
+    bottom: 50px;
+    position: fixed;
+    justify-content: start;
+    align-items: center;
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid #3c4043;
+}
+
+.footer-three pre{
+    left: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.footer-four{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    z-index: 100;
+}
+.footer-four a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+    margin: 0 10px;
+}
+
+.footer-four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    z-index: 100;
+}
+
+.footer-four .footer-links-left {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-four .footer-links-right {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-four a:hover{
+    text-decoration: underline;
+}
+
+
