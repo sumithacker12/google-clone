@@ -57,13 +57,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 92px;
+    height: 120px;
     width: 100%;
     text-align: center;
 }
-.search-box{
-    justify-items: center;
-    align-items: center;
+
+.search-box {
+    display: flex;                /* Important */
+    justify-content: center;     /* Center horizontally */
+    align-items: center;         /* Center vertically */
+    gap: 10px;                   /* Optional: space between input and icon/button */
 }
 .search{
     display: inline;
