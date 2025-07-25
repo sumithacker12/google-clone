@@ -25,13 +25,18 @@
         <img src="google-image.png">
     </div>
     <br>
+    <form action="https://www.google.com/search" method="get" target="_blank">
     <div class="search-box">
-        <div class="search">
+        <div class="search" style="position: relative;">
             <span class="search-button-icon">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </span>
             <input 
-                placeholder="Search">
+                type="text"
+                name="q"
+                style="padding-left: 30px;"
+                placeholder="Search Google or type a URL"
+                required>
             <span style="position: absolute; right: 40px;">
                 <i class="fa-solid fa-microphone" title="search by voice" style=" margin-right: 10px; cursor: pointer;"></i>
             </span>
@@ -42,9 +47,10 @@
     </div>
     <br>
     <div class="buttons">
-        <button class="search-button">Google Search</button>
-        <a class="lucky-button" href="https://doodles.google/"> I'm Feeling Lucky </a>
+        <button class="search-button" type="submit">Google Search</button>
+        <a class="lucky-button" href="https://www.google.com/doodles">I'm Feeling Lucky</a>
     </div>
+</form>
     <div class="footer">
         <p><i class="fa-solid fa-trash"></i> Google Gemini, <a href="a"> 
 help me assemble this bookshelf with these instructions</a></p>
